@@ -24,6 +24,21 @@ function NavBar() {
                   Home
                 </Link>
               </li>
+              <li className='nav-item'>
+                <Link to="/experiencias" className='nav-links' onClick={closeMobileMenu}>
+                  Experiencias
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to="/destinos" className='nav-links' onClick={closeMobileMenu}>
+                  Destinos
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to="/registro" className='nav-links-mobile' onClick={closeMobileMenu}>
+                  Registro
+                </Link>
+              </li>
             </ul>
         </div>
      </nav>
