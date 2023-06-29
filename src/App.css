@@ -6,9 +6,9 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .destinos,
+  .experiencias,
+  .registro {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,29 +16,29 @@
     font-size: 3rem;
   }
   
-  .services {
-    /*background-image: url('/images/img-2.jpg');*/
+  .destinos {
+    background-image: url('../public/images/img7.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #000000;
     font-size: 100px;
   }
   
-  .products {
-    /*background-image: url('/images/img-1.jpg');*/
+  .experiencias {
+    background-image: url('../public/images/img6.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #000000;
     font-size: 100px;
   }
   
-  .sign-up {
-    /*background-image: url('/images/img-8.jpg');*/
+  .registro {
+    background-image: url('../public/images/img1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #000000;
     font-size: 100px;
   }
