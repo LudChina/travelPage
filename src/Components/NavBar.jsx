@@ -32,9 +32,10 @@ function NavBar() {
         <div className="navbar_container">
             <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
                 TRIP
+                <i class='fab fa-typo3' />
             </Link>
             <div className="menu_icon" onClick={handleClick}>
-              <i className={click ?  'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
+              <i className={click ?  'fas fa-times' : 'fas fa-bars'} />
             </div>
             <ul className={click ? 'nav_menu active' : 'nav_menu'}>
               <li className='nav_item'>
